@@ -1,0 +1,30 @@
+1. dam Ci cos, co teraz bede robił w robocie, to Cie bede mógł skołczować z tego
+2. 1. Masz dany plik csv - lokalizacje.csv
+3. plik ma strukture:
+4. 1. IDLokalizacji INT
+5. 2. AdresEmail String
+6. masz w tym pliku 20 rekordów - lokalizacje od 1-20
+7. i adresy email: lok1@costam.pl do lok2@costam.pl
+8. 2. masz dany drugi plik z danymi: dane.csv, o strukturzze
+9. 1. DataRaportu DATE (YYYYMMDD)
+10. 2. IDLokalizacji INT
+11. 3. Revenue Decimal(20,2) (edytowane)
+12. 4.Plan Decimal(20,2)
+13. 5. IloscTransakci INT
+14. ...
+15. 3. masz plik PDF - strona A4 formatu landscape, na ktore jest nagłłowek Data Raportu: .................. Lokalizacja: ......................
+16. a pod stpodem 3 ramki z 3 liczbami
+17. Plan: ........
+18. Revenue: .................
+19. Ilość transakcji: ................
+20. ten szablon masz jaki plik PDF, w ktorym mozna wpisywac te pola
+21. i teraz zadanie:
+22. dla wszystkich rekordow z pliku lokalizacje.csv
+23. jezeli istnieje dla nich wpis w pliku dane.csv
+24. na podstawie szablony pdf generujesz pdf, zapisujesz w nim dane z pliku dane.csv w odpowiednich kolumnach
+25. i wysylasz ten plik na odpowiwdni adres
+26. mozesz to zrobic w C#, jako apka consolowa
+27. albo w pythonie jak Ci wygodnie
+28. i masz na to 5 dni
+29. jak cos niejasne to pisz
+30. jak potrzebujesz przefadac, daj znac - zlapiemy sie
